@@ -1,11 +1,11 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title         : Notebook Template
-author        : Negin Sobhani,  SEA Software Engineering Assembly Committee
-copyright     : "2024"  # Copyright year to be placed in the footer
+title         : A Practical Framework for Small Teams to Develop Sustainable Research Software
+author        : Ange (Phil) Du,  SEA Software Engineering Assembly Committee
+copyright     : "2025"  # Copyright year to be placed in the footer
 logo          : assets/iss2025.png  # Path to a logo image
-email         : "negins@ucar.edu"
+email         : "dua@mcmaster.ca"
 
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
@@ -42,7 +42,8 @@ latex:
   latex_documents:
     targetname: sea_paper_2024.tex
 
-
+bibtex_bibfiles:
+  - references.bib
 
 # Information about where the book exists on the web
 repository:
@@ -65,14 +66,12 @@ html:
     utterances              : false
   announcement              : "test test test!" # A banner announcement at the top of the site.
 
-
 sphinx:
   config:
     html_last_updated_fmt : '%-d %B %Y'
     html_theme            : sphinx_pythia_theme
     html_permalinks_icon: '<i class="fas fa-link"></i>'
     bibtex_reference_style: author_year
-    bibtex_bibfiles: references.bib
     html_theme_options:
       home_page_in_toc: true
       repository_url: https://github.com/UCAR-SEA/SEA-ISS-Template # Online location of your book

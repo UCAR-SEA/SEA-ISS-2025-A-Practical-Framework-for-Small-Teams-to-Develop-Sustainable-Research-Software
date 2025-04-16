@@ -13,4 +13,14 @@ It comes in the form of a GitHub repository template, around which we will also 
 ## Pain Points
 Our literature review has identified several prominent pain points in research software development.
 Some of these are also corroborated by our own experience as discussed in the [Background](./background.md) section.
-- Lack of software engineering knowledge by domain experts [@HannayEtAl2009] [@PintoEtAl2018].
+- Lack of software engineering knowledge by the domain experts [@HannayEtAl2009] [@PintoEtAl2018].
+    -  Particularly lacking the know-how to conduct testing [@HannayEtAl2009]
+- Domain experts have limited time to work on the software, and do not think they get enough recognition and feedback for the software [@PintoEtAl2018]. Which could be the underlying reason for:
+    - Poor documentation [@PintoEtAl2018]
+    - Not considering long-term maintainability important [@HannayEtAl2009].
+- Feature creep and hard to nail down requirements at the beginning of the project due to the ever-changing nature of research [@PintoEtAl2018] [@SegalEtAl2008] [@KillcoyneEtAl2009].
+- Developers having a hard time understanding the domain knowledge and research needs, especially at the beginning of the project [@SegalEtAl2008].
+- Special considerations needed for less tech-savvy users to use the software [@WieseEtAl2020] and the developers can become frustrated when they are stuck providing IT support [@KillcoyneEtAl2009].
+
+```{bibliography}
+```
