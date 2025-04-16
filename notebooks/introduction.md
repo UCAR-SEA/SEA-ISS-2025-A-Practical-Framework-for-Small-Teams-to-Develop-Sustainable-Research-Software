@@ -7,20 +7,23 @@ The researchers (referred to as "Domain Experts" or "DE" in this paper) will eit
 The main motivation behind our work is to move research software away from being a disposable tool for a single paper/project, to a sustainable product that can be maintained, reused and adapted for more works in the future.
 We argue that software should meet the same rigorous standards, such as peer review and reproducibility, as the research itself.
 
-Our work presents a framework to help developers effectively collaborate with domain experts to produce high-quality, sustainable research software.
-It comes in the form of a GitHub repository template, around which we will also discuss our [Proposed Practices](./practices.md).
+Our work presents a framework tailored toward small project teams that have not seen much attention, to help developers effectively collaborate with domain experts to produce high-quality, sustainable research software.
+It comes in the form of a [GitHub repository template](https://omltcat.github.io/research-software-template/), around which we will also discuss our [Proposed Practices](./practices.md).
+This uses structured Markdown files for documentation, and automatically deploys a website to GitHub Pages using GitHub Actions whenever updated.
+It enables quick issue creation that links to specific sections of the documentation (Shown in Figure below) and quick editing, lowering the participation barrier for domain experts who may not be familiar with GitHub.
+
+```{figure} figures/report_issue.png
+:name: Quick Issue Creation Button
+:align: center
+
+Example of a quick issue creation button present on each section/subsection of the documents in our template, with generated issue linking back to this exact location.
+```
+
 
 ## Pain Points
 Our literature review has identified several prominent pain points in research software development.
 Some of these are also corroborated by our own experience as discussed in the [Background](./background.md) section.
-- Lack of software engineering knowledge by the domain experts [@HannayEtAl2009] [@PintoEtAl2018].
-    -  Particularly lacking the know-how to conduct testing [@HannayEtAl2009]
-- Domain experts have limited time to work on the software, and do not think they get enough recognition and feedback for the software [@PintoEtAl2018]. Which could be the underlying reason for:
-    - Poor documentation [@PintoEtAl2018]
-    - Not considering long-term maintainability important [@HannayEtAl2009].
-- Feature creep and hard to nail down requirements at the beginning of the project due to the ever-changing nature of research [@PintoEtAl2018] [@SegalEtAl2008] [@KillcoyneEtAl2009].
-- Developers having a hard time understanding the domain knowledge and research needs, especially at the beginning of the project [@SegalEtAl2008].
-- Special considerations needed for less tech-savvy users to use the software [@WieseEtAl2020] and the developers can become frustrated when they are stuck providing IT support [@KillcoyneEtAl2009].
-
-```{bibliography}
-```
+- Lack of software engineering knowledge by the domain experts (researchers), especially areas like testing and project management [@HannayEtAl2009] [@PintoEtAl2018].
+- "Feature creep" as the research evolves and hard-to-define requirements [@PintoEtAl2018] [@SegalEtAl2008] [@KillcoyneEtAl2009].
+- Poor documentation and little interest in making the software sustainable, due to lack of recognition and outside user feedback [@PintoEtAl2018].
+- Knowledge gap and communication breakdown between the developer and the domain expert, making it difficult for the developer to grasp the requirements [@SegalEtAl2008].
