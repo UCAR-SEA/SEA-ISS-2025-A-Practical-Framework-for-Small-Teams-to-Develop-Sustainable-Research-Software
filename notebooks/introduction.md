@@ -1,16 +1,16 @@
 # Introduction
 
 In today's scientific and engineering research, software plays a critical role to collect, process, analyze, and visualize data or simulate complex physical systems [@Storer2017].
-Whenever existing software does not meet the specific research needs, adaption or new development is often required.
+Whenever existing software does not meet specific research needs, the existing software must be adapted, or completely new software must be developed.
 The researchers (referred to as "Domain Experts" or "DE" in this paper) will either have to tread the unfamiliar water of software engineering, or collaborate with developers who likely possess different knowledge-sets and expectations [@HannayEtAl2009] [@KillcoyneEtAl2009].
 
-The main motivation behind our work is to move research software away from being a disposable tool for a single paper/project, to a sustainable product that can be maintained, reused and adapted for more works in the future.
+The main motivation behind our work is to move research software away from being a disposable tool for a single paper/project, to being a sustainable product that can be maintained, reused and adapted for the future.
 We argue that software should meet the same rigorous standards, such as peer review and reproducibility, as the research itself.
 
-Our work presents a framework tailored toward small project teams that have not seen much attention, to help developers effectively collaborate with domain experts to produce high-quality, sustainable research software.
-It comes in the form of a [GitHub repository template](https://omltcat.github.io/research-software-template/), around which we will also discuss our [Proposed Practices](./practices.md).
-This uses structured Markdown files for documentation, and automatically deploys a website to GitHub Pages using GitHub Actions whenever updated.
-It enables quick issue creation that links to specific sections of the documentation (Shown in Figure below) and quick editing, lowering the participation barrier for domain experts who may not be familiar with GitHub.
+Our work presents a framework tailored toward small project teams who have not seen much attention. We wish to help developers effectively collaborate with domain experts to produce high-quality, sustainable research software.
+Our framework comes in the form of a [GitHub repository template](https://omltcat.github.io/research-software-template/), around which we will also discuss our [Proposed Practices](./practices.md).
+The template uses structured Markdown files for documentation, and automatically deploys a website to GitHub Pages using GitHub Actions whenever it is updated.
+Our approach enables quick issue creation that links to specific sections of the documentation (Shown in Figure below) and quick editing, lowering the participation barrier for domain experts who may not be familiar with GitHub.
 
 ```{figure} figures/report_issue.png
 :name: Quick Issue Creation Button
