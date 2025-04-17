@@ -12,7 +12,7 @@ However, since it was developed in an ad-hoc manner, with little traceable requi
 
 ## SynthEddy
 This was a recent project under the "developer & domain expert collaboration" setting, where the author served as the developer.
-The software [@SynthEddy] is a Python program to generate turbulent flow fields consisting of numerous "eddies" (circular flow) with the Synthetic Eddy Method [@PolettoEtAl2013], to be used as initial conditions (IC) and boundary conditions (BC) for computational fluid dynamics (CFD) simulations.
+[SynthEddy](https://github.com/omltcat/turbulent-flow) [@SynthEddy] is a Python program to generate turbulent flow fields consisting of numerous "eddies" (circular flow) with the Synthetic Eddy Method [@PolettoEtAl2013], to be used as initial conditions (IC) and boundary conditions (BC) for computational fluid dynamics (CFD) simulations.
 
 ```{figure} figures/SynthEddy_tunnel.png
 :name: SynthEddy Tunnel Flow
@@ -23,7 +23,7 @@ Velocity magnitude cross-section plot of a non-uniform mean velocity field gener
 
 SynthEddy was developed in a document-driven process, with high traceability of theory, requirements, design, and implementation, leading to easy expansion of the software.
 However, it did face a major setback and subsequent redesign because the developer was unaware of the typical use case of the software.
-The initial, fully information-hiding modular design to mimic the physical system was too slow and resource-intensive for the computation scale (in terms of mesh resolution and number of eddies) needed in the domain in practice. 
+The initial, fully information-hiding modular design (as in [@Parnas1986]) to mimic the physical system was too slow and resource-intensive for the computation scale (in terms of mesh resolution and number of eddies) needed in the domain in practice. 
 Our framework aims to avoid the problem of such communication breakdown between the developer and the domain expert.
 
 ## Current Practices
