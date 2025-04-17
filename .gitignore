@@ -134,3 +134,6 @@ dmypy.json
 
 # Ephemeral .nfs files
 .nfs*
+
+# DStore on Macs
+.DS_Store
