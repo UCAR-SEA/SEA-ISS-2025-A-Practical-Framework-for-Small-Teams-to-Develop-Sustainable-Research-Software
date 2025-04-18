@@ -3,10 +3,9 @@
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-green?style=flat-square&logo=Jupyter&color=green)](https://jupyter.org/try)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15237939.svg)](https://doi.org/10.5281/zenodo.15237939)
 
-**Authors**: Ange (Phil) Du and Spencer Smith  
+**Authors**: [Ange (Phil) Du](mailto:dua@mcmaster.ca) and [Spencer Smith](smiths@mcmaster.ca)  
 McMaster University, Computing and Software Department  
 1280 Main Street West, Hamilton, L8S 4K1, Ontario, Canada  
-E-mails: dua@mcmaster.ca, smiths@mcmaster.ca
 
 **Abstract**:   
 Currently, a knowledge gap exists between research software and general software engineering. The scientific literature is full of ideas to close this gap, including documentation templates, code generation, continuous integration/deployment and formal methods. Although these ideas are promising, they often assume a large team that includes individuals who have the required expertise.

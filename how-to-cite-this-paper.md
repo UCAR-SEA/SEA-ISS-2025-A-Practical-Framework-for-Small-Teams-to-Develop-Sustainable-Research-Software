@@ -9,6 +9,7 @@ If you reference the scientific content of this paper in your work, please use t
 ```bibtex
 @proceedings{du_2025_15237939,
   title        = {A Practical Framework for Small Teams to Develop Sustainable Research Software},
+  author       = {Ange (Phil) Du and Spencer Smith},
   year         = 2025,
   publisher    = {Zenodo},
   month        = apr,
