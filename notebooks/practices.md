@@ -15,7 +15,7 @@ Our V-model workflow, with numbering indicating suggested chronological order of
 ```
 
 ## Information Gathering
-In our workflow, the developer is responsible for writing requirements and design documents after gathering necessary information and understanding the problem domain. However, too much information can overwhelm the developer, as domain experts may be enthusiastic about sharing details. The developer's aim is to understand just enough to translate the problem into software. To achieve this, we propose a single technical meeting where the domain expert briefly present their research, before the developer ask a set of specific questions to efficiently extract essential information needed to build an MVP. We arrange these questions into six categories:
+In our workflow, the developer is responsible for writing requirements and design documents after gathering necessary information and understanding the problem domain. However, too much information can overwhelm the developer, as domain experts may be enthusiastic about sharing details. The developer's aim is to understand just enough to translate the problem into software. To achieve this, we propose a single technical meeting where the domain expert briefly present their research, before the developer asks a set of specific questions to efficiently extract essential information needed to build an MVP. We arrange these questions into six categories:
 
 - Q1.* - **Problem Domain** helps the developer to understand the big picture of research field;
 - Q2.* - **Software Goals** focuses on what the software should achieve;
@@ -104,7 +104,7 @@ However, this approach can sometimes lead to performance issues, as seen in the 
 
 To address these performance concerns, it may be necessary to break away from strict encapsulation to better leverage optimized libraries, if available for the problem under consideration, such as NumPy for vector operations.
 This trade-off allows for more efficient handling of large computation scale.
-Some future-proofing attributes can be retained through detailed documentation of the optimizations employed, ensuring that subsequent developers can understand and build upon these improvements. The below example shows how SynthEddy helps future end-user developer to make their own optimized shape function:
+Some future-proofing attributes can be retained through detailed documentation of the optimizations employed, ensuring that subsequent developers can understand and build upon these improvements. The below example shows how SynthEddy helps future end-user developers to make their own optimized shape function:
 
 ```python
 def gaussian(dk, sigma):
@@ -147,5 +147,5 @@ First is the amalgamation between software and paper. An example can be found on
 
 This way, to reproduce or build upon the research is not only possible, but also encouraged, and the software is more likely to be used by other researchers in the field.
 
-Second is the practice, common in the Self-Hosting community, of including a "Quick Start" guide in addition to the detailed User Guide, such as in the case of [Jellyfin](https://jellyfin.org/docs/general/quick-start/), [Nginx Proxy Manager](https://nginxproxymanager.com/guide/#quick-setup) and [Vaultwarden](https://github.com/dani-garcia/vaultwarden?tab=readme-ov-file#docker-compose).
+Second is the practice, common in the Self-Hosting community, of including a "Quick Start" guide in addition to the detailed User Guide, such as in the case of [Nginx Proxy Manager](https://nginxproxymanager.com/guide/#quick-setup).
 If potential users can quickly spin up a typical use case of the software with docker images, pre-packaged runtime environments, etc., they may be more inclined to use it for their own research, provide feedback and even contribute back to the project.

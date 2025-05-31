@@ -7,7 +7,7 @@ The researchers (referred to as "Domain Experts" or "DE" in this paper) will eit
 The main motivation behind our work is to move research software away from being a disposable tool for a single paper/project, to being a sustainable product that can be maintained, reused and adapted for the future.
 We argue that software should meet the same rigorous standards, such as peer review and reproducibility, as the research itself.
 
-Our work presents a framework tailored toward small project teams who have not seen much attention. We wish to help developers effectively collaborate with domain experts to produce high-quality, sustainable research software.
+Our work presents a framework tailored toward small project teams who often do not have the number or dedicated expertise to execute development processes/models targeting large teams. We wish to help developers effectively collaborate with domain experts to produce high-quality, sustainable research software.
 Our framework comes in the form of a [GitHub repository template](https://omltcat.github.io/research-software-template/), around which we will also discuss our [Proposed Practices](./practices.md).
 The template uses structured Markdown files for documentation, and automatically deploys a website to GitHub Pages using GitHub Actions whenever it is updated.
 Our approach enables quick issue creation that links to specific sections of the documentation (Shown in Figure below) and quick editing, lowering the participation barrier for domain experts who may not be familiar with GitHub.
@@ -16,7 +16,7 @@ Our approach enables quick issue creation that links to specific sections of the
 :name: Quick Issue Creation Button
 :align: center
 
-Example of a quick issue creation button present on each section/subsection of the documents in our template, with generated issue linking back to this exact location.
+Example of a quick issue creation button on a table of symbols in our template. This button is present on each section/subsection of the documents, with generated issue linking back to exact location where it was created.
 ```
 
 
