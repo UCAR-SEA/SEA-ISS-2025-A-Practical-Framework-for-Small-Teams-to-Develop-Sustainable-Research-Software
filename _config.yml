@@ -113,4 +113,5 @@ sphinx:
     - sphinxcontrib.bibtex
     - sphinxcontrib.youtube
 
-  
+    # Needs to go here (https://stackoverflow.com/a/75651479)
+    myst_heading_anchors: 3
