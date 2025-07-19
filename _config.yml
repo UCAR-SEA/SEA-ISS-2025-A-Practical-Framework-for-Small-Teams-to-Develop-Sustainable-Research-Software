@@ -82,7 +82,6 @@ sphinx:
       use_edit_page_button: true
       use_download_button: true
       use_fullscreen_button: true
-      use_binder_button: true
       github_url: https://github.com/UCAR-SEA
       extra_navbar: |
         <div>Powered by <a href="https://jupyterbook.org">Jupyter Book</a></div>Theme adapted from <a href="https://projectpythia.org/">Project Pythia</a>
