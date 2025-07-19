@@ -64,7 +64,6 @@ html:
   comments:
     hypothesis              : false
     utterances              : false
-  announcement              : "test test test!" # A banner announcement at the top of the site.
 
 sphinx:
   config:
