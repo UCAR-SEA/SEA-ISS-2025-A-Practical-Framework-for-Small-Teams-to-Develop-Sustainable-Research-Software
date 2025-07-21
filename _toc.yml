@@ -2,7 +2,7 @@ format: jb-book
 root: README
 
 parts:
-  - caption: Chapters
+  - caption: Contents
     chapters:
       - file: notebooks/introduction.md
       - file: notebooks/background.md
