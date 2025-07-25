@@ -3,7 +3,7 @@
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-green?style=flat-square&logo=Jupyter&color=green)](https://jupyter.org/try)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15237939.svg)](https://doi.org/10.5281/zenodo.15237939)
 
-**Authors**: [Ange (Phil) Du](mailto:dua11@mcmaster.ca) and [Spencer Smith](smiths@mcmaster.ca)  
+**Authors**: [Ange (Phil) Du](mailto:dua11@mcmaster.ca) and [Spencer Smith](mailto:smiths@mcmaster.ca)  
 McMaster University, Computing and Software Department  
 1280 Main Street West, Hamilton, L8S 4K1, Ontario, Canada  
 
