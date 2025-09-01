@@ -1,7 +1,7 @@
 # A Practical Framework for Small Teams to Develop Sustainable Research Software
 [![JupyterBook](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/deploy.yml/badge.svg)](https://github.com/UCAR-SEA/SEA-ISS-Template/actions/workflows/deploy.yml)
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-green?style=flat-square&logo=Jupyter&color=green)](https://jupyter.org/try)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15237939.svg)](https://doi.org/10.5281/zenodo.15237939)
+[![DOI](https://zenodo.org/badge/962061484.svg)](https://doi.org/10.5281/zenodo.17023783)
 
 **Authors**: [Ange (Phil) Du](mailto:dua11@mcmaster.ca) and [Spencer Smith](mailto:smiths@mcmaster.ca)  
 McMaster University, Computing and Software Department  
